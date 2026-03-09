@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 export default function ImpressumPage() {
     return (
         <div
-            className="min-h-screen px-6 py-20"
-            style={{ backgroundColor: "#05060f" }}
+            className="relative min-h-screen px-6 py-20"
+            style={{ backgroundColor: "transparent", zIndex: 1 }}
         >
             <div className="max-w-2xl mx-auto">
                 {/* Back */}

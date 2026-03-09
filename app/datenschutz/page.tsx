@@ -46,7 +46,7 @@ function DataBox({ items }: { items: { label: string; value: string }[] }) {
 
 export default function DatenschutzPage() {
     return (
-        <div className="min-h-screen px-6 py-20" style={{ backgroundColor: "transparent" }}>
+        <div className="relative min-h-screen px-6 py-20" style={{ backgroundColor: "transparent", zIndex: 1 }}>
             <div className="max-w-2xl mx-auto">
 
                 {/* Back */}
